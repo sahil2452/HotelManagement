@@ -1,0 +1,123 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body setup */
+body {
+  background-image: url("login4.jpg");
+  font-family: 'Segoe UI', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Registration container styles */
+.register-container {
+  background-color: rgba(255, 255, 255, 0.95);
+  background-image: url("pexels-pixabay-271639.jpg");
+  padding: 40px;
+  border-radius: 15px;
+  width: 400px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  animation: fadeIn 1s ease;
+}
+
+/* Video background styling */
+video.bg-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* Heading styles */
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form inputs styling */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  width: 90%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+/* Button styling */
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #6C63FF;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #5549d5;
+}
+
+/* Paragraph styling */
+p {
+  margin-top: 15px;
+  color: #333;
+}
+
+/* Link styling */
+a {
+  color: #6C63FF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Select dropdown styling */
+select {
+  background-color: white;
+  color: #333;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url('ROOM3.jpg');
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 20px;
+}
+
+/* Focus state for select */
+select:focus {
+  outline: none;
+  border-color: #6C63FF;
+  box-shadow: 0 0 4px rgba(108, 99, 255, 0.5);
+}
+
+/* Option styling */
+option {
+  font-size: 16px;
+  color: #333;
+}
